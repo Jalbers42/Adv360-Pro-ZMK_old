@@ -68,13 +68,13 @@ macro_ctrl_up: macro_ctrl_up{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_up";
 #binding-cells = <0>;
-bindings = <&macro_press &kp LCTRL>, <&macro_tap &kp UP>, <&macro_release &kp LCTRL>;
+bindings = <&macro_press &kp RCTRL>, <&macro_tap &kp UP>, <&macro_release &kp RCTRL>;
 };
 macro_ctrl_down: macro_ctrl_down{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_down";
 #binding-cells = <0>;
-bindings = <&macro_press &kp LCTRL>, <&macro_tap &kp DOWN>, <&macro_release &kp LCTRL>;
+bindings = <&macro_press &kp RCTRL>, <&macro_tap &kp DOWN>, <&macro_release &kp RCTRL>;
 };
 macro_workspace_right: macro_workspace_right{
 compatible = "zmk,behavior-macro";
