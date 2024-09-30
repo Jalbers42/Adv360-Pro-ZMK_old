@@ -1,4 +1,4 @@
-macro_cmd_shift_r: macro_cmd_shift_r{
+macro_cmd_shift_r_old: macro_cmd_shift_r_old{
 compatible = "zmk,behavior-macro";
 label = "macro_cmd_shift_r";
 #binding-cells = <0>;
@@ -16,7 +16,6 @@ bindings =
     <&macro_release &kp LCMD>
 ;
 };
-
 macro_shift_backslash: macro_shift_backslash {
 compatible = "zmk,behavior-macro";
 label = "macro_shift_backslash";
@@ -27,7 +26,6 @@ bindings =
     <&macro_release &kp LEFT_SHIFT>
 ;
 };
-
 macro_shift_v: macro_shift_v {
 compatible = "zmk,behavior-macro";
 label = "macro_shift_v";
@@ -38,7 +36,6 @@ bindings =
     <&macro_release &kp LEFT_SHIFT>
 ;
 };
-
 macro_screenshot: macro_screenshot {
 compatible = "zmk,behavior-macro";
 label = "macro_screenshot";
@@ -51,7 +48,6 @@ bindings =
     <&macro_release &kp LCTRL>
 ;
 };
-
 macro_shift_enter: macro_shift_enter {
 compatible = "zmk,behavior-macro";
 label = "macro_shift_enter";
@@ -62,7 +58,6 @@ bindings =
     <&macro_release &kp LEFT_SHIFT>
 ;
 };
-
 macro_option_right: macro_option_right {
 compatible = "zmk,behavior-macro";
 label = "macro_option_right";
@@ -73,7 +68,6 @@ bindings =
     <&macro_release &kp LEFT_ALT>
 ;
 };
-
 macro_option_left: macro_option_left {
 compatible = "zmk,behavior-macro";
 label = "macro_option_left";
@@ -84,7 +78,6 @@ bindings =
     <&macro_release &kp LEFT_ALT>
 ;
 };
-
 macro_option_up: macro_option_up {
 compatible = "zmk,behavior-macro";
 label = "macro_option_up";
@@ -95,7 +88,6 @@ bindings =
     <&macro_release &kp LEFT_ALT>
 ;
 };
-
 macro_option_down: macro_option_down {
 compatible = "zmk,behavior-macro";
 label = "macro_option_down";
@@ -106,7 +98,6 @@ bindings =
     <&macro_release &kp LEFT_ALT>
 ;
 };
-
 macro_ctrl_up: macro_ctrl_up {
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_up";
@@ -117,7 +108,6 @@ bindings =
     <&macro_release &kp LCTRL>
 ;
 };
-
 macro_ctrl_down: macro_ctrl_down {
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_down";
@@ -128,7 +118,6 @@ bindings =
     <&macro_release &kp LCTRL>
 ;
 };
-
 macro_workspace_right: macro_workspace_right {
 compatible = "zmk,behavior-macro";
 label = "macro_workspace_right";
@@ -141,7 +130,6 @@ bindings =
     <&macro_release &kp LCTRL>
 ;
 };
-
 macro_workspace_left: macro_workspace_left {
 compatible = "zmk,behavior-macro";
 label = "macro_workspace_left";
@@ -154,7 +142,6 @@ bindings =
     <&macro_release &kp LCTRL>
 ;
 };
-
 macro_mission_ctrl: macro_mission_ctrl {
 compatible = "zmk,behavior-macro";
 label = "macro_mission_ctrl";
