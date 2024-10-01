@@ -6,7 +6,8 @@
     "base",
     "keypad",
     "fn",
-    "mod"
+    "mod",
+    "fn_cmd"
   ],
   "layers": [
     [
@@ -27,6 +28,12 @@
        "&trans", "&trans", "&macro_screenshot",      "&trans",     "&macro_shift_v", "&trans",           "&kp TAB", "&trans", "&trans",                     "&trans", "&trans", "&kp TAB",       "&kp NUMBER_9",           "&kp LEFT",           "&kp DOWN",           "&kp UP",           "&kp RIGHT",               "&kp NUMBER_0",
        "&trans", "&trans",            "&trans", "&macro_copy",       "&macro_paste", "&trans",                                "&trans",                     "&trans",                      "&macro_shift_enter", "&macro_option_left", "&macro_option_down", "&macro_option_up", "&macro_option_right",                     "&trans",
        "&trans", "&trans",            "&trans",      "&trans",             "&trans",                      "&trans", "&trans", "&trans",                     "&trans", "&trans",  "&trans",                                   "&trans",             "&trans",           "&trans",              "&trans",                     "&trans"
+    ], [
+        "&none", "&bt BT_SEL 0", "&bt BT_SEL 1", "&bt BT_SEL 2", "&bt BT_SEL 3", "&bt BT_SEL 4",                 "&none",                                                                                     "&trans",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
+        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",           "&bootloader",                                                                                "&bootloader",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
+        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",                 "&none",  "&none",  "&none",                     "&bt BT_CLR",      "&none", "&rgb_ug RGB_MEFS_CMD 5",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
+        "&none",        "&none",        "&none",        "&none",   "&macro_ver",        "&none",                                     "&none",                          "&none",                                          "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
+        "&none",        "&none",        "&none",        "&none",        "&none",                                 "&none",  "&none",  "&none",                          "&none", "&bl BL_TOG",        "&rgb_ug RGB_TOG",           "&bl BL_INC", "&bl BL_DEC",  "&none",  "&none",  "&none"
     ], [
         "&none", "&bt BT_SEL 0", "&bt BT_SEL 1", "&bt BT_SEL 2", "&bt BT_SEL 3", "&bt BT_SEL 4",                 "&none",                                                                                     "&trans",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
         "&none",        "&none",        "&none",        "&none",        "&none",        "&none",           "&bootloader",                                                                                "&bootloader",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
