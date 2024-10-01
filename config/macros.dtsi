@@ -48,13 +48,13 @@ bindings = <&macro_press &kp LEFT_SHIFT>, <&macro_tap &kp ENTER>, <&macro_releas
 };
 macro_option_slash: macro_option_slash{
 compatible = "zmk,behavior-macro";
-label = "macro_shift_enter";
+label = "macro_option_slash";
 #binding-cells = <0>;
 bindings = <&macro_press &kp LEFT_ALT>, <&macro_tap &kp KP_SLASH>, <&macro_release &kp LEFT_ALT>;
 };
 macro_option_backslash: macro_option_backslash{
 compatible = "zmk,behavior-macro";
-label = "macro_shift_enter";
+label = "macro_option_backslash";
 #binding-cells = <0>;
 bindings = <&macro_press &kp LEFT_ALT>, <&macro_tap &kp BACKSLASH>, <&macro_release &kp LEFT_ALT>;
 };

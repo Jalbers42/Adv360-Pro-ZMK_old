@@ -78,5 +78,15 @@
             >;
         };
 
+        layer_fn_cmd {
+            bindings = <
+  &none   &none   &none   &none   &none   &none            &none                                                   &none   &none   &none   &none   &none   &none   &none
+  &none   &none   &none   &none   &none   &none            &none                                                   &none   &none   &none   &none   &none   &none   &none
+  &none   &none   &none   &none   &none   &none            &none   &none   &none                   &none   &none   &none   &none   &none   &none   &none   &none   &none
+  &none   &none   &none   &none   &none   &none                            &none                   &none                   &none   &none   &none   &none   &none   &none
+  &none   &none   &none   &none   &none                    &none   &none   &none                   &none   &none   &none           &none   &none   &none   &none   &none
+            >;
+        };
+
     };
 };
