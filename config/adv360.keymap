@@ -80,11 +80,11 @@
 
         layer_fn_cmd {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans                    &trans               &trans  &trans  &trans                   &trans                     &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans                    &trans               &trans  &trans  &trans       &macro_cmd_shift_p                     &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &macro_option_shift_left   &macro_option_left  &trans  &trans      &macro_option_right  &macro_option_shift_right
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                                    &trans  &macro_option_slash  &trans  &trans  &macro_option_backslash                     &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                                         &trans  &trans  &trans                   &trans                     &trans
+ &trans              &trans                    &trans             &trans               &trans  &trans            &trans                                                  &trans                    &trans               &trans  &trans  &trans                   &trans                     &trans
+ &trans              &trans  &macro_window_almost_max  &macro_window_max               &trans  &trans            &trans                                                  &trans                    &trans               &trans  &trans  &trans       &macro_cmd_shift_p                     &trans
+ &trans  &macro_window_left        &macro_window_down   &macro_window_up  &macro_window_right  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &macro_option_shift_left   &macro_option_left  &trans  &trans      &macro_option_right  &macro_option_shift_right
+ &trans              &trans                    &trans             &trans               &trans  &trans                            &trans                  &trans                                    &trans  &macro_option_slash  &trans  &trans  &macro_option_backslash                     &trans
+ &trans              &trans                    &trans             &trans               &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                                         &trans  &trans  &trans                   &trans                     &trans
             >;
         };
 
